@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1505840773 source:d:\c++\prueba\main.cpp
+	<iostream>
+	<stdio.h>
+	<bitset>
+
