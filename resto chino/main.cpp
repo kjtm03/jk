@@ -8,9 +8,9 @@ int inverso(int a,int c)
         int x = (a*b)%c;
         if(x < 0){x = x + c;}
         if(x == 1){
-            cout<<"\n";
+            //cout<<"\n";
             cout<<"Inversa: "<<b<<endl;
-
+            y[0]=b;
             break;
         }
         if(b == c-1 && x != 1){cout<<"No existe inverso modular \n";}
@@ -51,12 +51,13 @@ void teorema_chino()
         y[i]=inverso(M[i],m[i]);
         //cout<<y[i]<<endl;
     }
+    cout<<endl;
     for(int i=0;i<num;i++)
     {
         x+=a[i]*M[i]*y[i];
         cout<<"("<<a[i]<<" * "<<M[i]<<" * "<<y[i]<<")"<<" + ";
     }
-    cout<<endl;
+    cout<<"\n\n";
     cout<<x<<" "<<cong;
     x=x%mult;
     //233=23(mod 105)
