@@ -1,0 +1,47 @@
+body{
+	background: crimson
+}
+
+#contenedor{
+	width: 40%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 12px;
+}
+
+#caja-chat{
+	width: 90%;
+	height: 350px;
+	font-family: 'Acme', sans-serif;
+}
+
+#chat{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid red;
+	font-weight: bold;
+}
+
+input[type="text"]{
+	width: 100%;
+	height: 40px;
+	border:1px solid red;
+	border-radius: 5px;
+	cursor: pointer;
+}
+textarea{
+	width: 100%;
+	height: 40px;
+	border:1px solid orange;
+	border-radius: 5px;
+}
+
+input[type="submit"]{
+	width: 100%;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
