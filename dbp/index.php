@@ -11,7 +11,7 @@
 			<div id="chat">
 				<div id="datos_chat">
 					<span style="color: red">Jogurmund: </span>
-					<span>Fale galera</span>
+					<span>Respawn en 3 2 1...</span>
 					<span style="float: right;">09:04 pm</span>
 				</div>
 			</div>
